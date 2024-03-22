@@ -1,0 +1,27 @@
+Script started on 2019-09-23 19:29:07+0000
+etnewman43@csc2500:~$ cat days
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+etnewman43@csc2500:~$ cat days[K[K[K[K[K[K[K[Kcat > days[K[K[K[K[K[K[K[K[K[Kcat ay[K[Kdays | sort
+Friday
+Monday
+Saturday
+Sunday
+Thursday
+Tuesday
+Wednesday
+etnewman43@csc2500:~$ cat days | grep t[KT
+[01;31m[KT[m[Kuesday
+[01;31m[KT[m[Khursday
+etnewman43@csc2500:~$ cat days | G[Kgrep T | [K | [K | [K | [K | sort
+Thursday
+Tuesday
+etnewman43@csc2500:~$ exit
+exit
+
+Script done on 2019-09-23 19:30:33+0000

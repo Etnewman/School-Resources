@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class IntroToJava {
+
+	public static void main(String[] args) {
+	
+	/*  Getting Used to String and System.out
+	 
+	    System.out.println("Hello World!");
+		String bye = ("Goodbye!");
+		String adj = ("Happy");
+		String verb = ("Running");
+		String noun = ("House");
+		
+		System.out.println("I am very " + adj + ". Today, I went " + verb + ". Afterwards, I went to the " + noun + ". ");
+		
+	*/	
+	
+		Scanner scan = new Scanner(System.in);
+		
+		
+		for(int i = 0; i < 7; i++)
+		{
+			System.out.println("Enter Pokemon " + i + ":\t");
+			String Pokemon = scan.nextLine();
+			String PokemonArray[] = {Pokemon};
+			System.out.println(PokemonArray[i]);
+		}
+		
+		
+
+	}
+
+}

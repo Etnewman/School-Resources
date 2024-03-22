@@ -1,0 +1,3 @@
+Default via 10.128.0.1 == The default route through the router. This is the first hop through the internal IP of 10.128.0.1.
+dev ens4 == The type of interface being used in this IP Route
+dhcp scope link src 10.128.0.2 metric 100 == The DHCP server IP is 10.128.0.2, this is shown in the routing table. 10.128.0.1 is the default route. The DHCP scope is linked to the default route as 10.128.0.1 is a protected IP that the DHCP scope will not overwrite. The metric is a value associated with the cost of a hop/route.

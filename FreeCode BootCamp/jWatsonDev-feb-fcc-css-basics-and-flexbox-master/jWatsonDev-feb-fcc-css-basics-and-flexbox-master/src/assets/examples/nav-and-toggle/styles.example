@@ -1,0 +1,46 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * START of NAV bar
+ */
+ul {
+  list-style-type: none; 
+  background-color: #333; 
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block; 
+  color: white; 
+  padding: 14px 16px; 
+  text-decoration: none; 
+}
+
+li a:hover { 
+  background-color: #111; 
+}
+/*
+ * END of NAV bar
+ */
+
+
+/*
+ * START of display toggle
+ */
+ #toggle-big-red {
+    color: red;
+    cursor: pointer;
+    margin-top: 50px;
+ }
+
+ #big-red {
+     background: red;
+     width: 500px; 
+     height: 500px;
+ }

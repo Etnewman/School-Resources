@@ -1,0 +1,4 @@
+traceroute to tntech.edu (149.149.46.35), 30 hops max, 60 byte packets == Indicates the trace to tntech.edu as well as the ip, the maximum amount of hops for the packet through routers, and how big the packet is.
+1 *** == This indicates packet loss. This could mean a network outage, high amounts of traffic, or a firewall dropping traffic.
+3 ETHQ-IRING-RTR-02.blue.net (66.38.58.201) 27.551 ms 27.368 ms 27.426 ms == This shows first the node it hopped to, its IP address, then it shows three round trip times for the packet being sent, the default for traceroute is 3 packets sent.
+After 30 hops, the packet timed out and didn't reach tntech.edu.

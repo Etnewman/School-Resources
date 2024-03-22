@@ -1,0 +1,66 @@
+308
+Spear
+Niflheim
+Magic Ice, Mithril, Leather
+A spear from Nordic Lore. It has mystical ice properties.
+6.9
+599
+Sword
+Excalibur
+Steel, Gold, Leather
+A sword that is said to have lofted King Arthur into the heavens.
+7.6
+132
+Club
+Home-Run Bat
+Steel, Aluminum, Leather
+A bat that only ever hit Home-runs. It is popular with the Smash Bros. 
+3.2
+429
+Dual Swords
+Blades of Chaos
+Mithril, Adamantite, Gold, Leather
+Blades wielded by Kratos used to slay the Gods.
+9.1
+102
+Great Sword
+Buster Sword
+Steel, Leather
+A giant, 7 foot tall blade. It is too large to be weilded by most.
+8.3
+734
+Magic
+Fire Flower
+Magical fire
+A magical flower that imbues the powers of Ignis on the user.
+6.6
+981
+Plasma Cannon
+BFG 9000
+Adamantite, Plasma Core
+A large cannon used to fire Plasma bombs. It's entirely too effective.
+10.0
+177
+Katana
+Masamune
+Tamahagane, Gold, Leather
+A long, razor-sharp katana weilded by Sephiroth. It could tear through anything.
+8.8
+753
+Whip
+Vampire Killer
+Blessed Silver, Leather
+A long whip used by Richter Belmont to slay Count Dracula.
+4.2
+006
+Club
+Stick
+Wood
+It's just a stick.
+0.0
+757
+Crissaegrim
+Dagger
+Mithril, Wind in a Bottle, Leather
+A dagger that has the ability to attack faster than any other weapon, can be dual weilded.
+9.3

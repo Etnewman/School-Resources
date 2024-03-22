@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import './imported-css.css';
+
+/* Style the HTML Body Element */
+body {
+    background: url('https://picsum.photos/1600');
+    font-family: fantasy;
+}
+
+.external-application {
+    background: green;
+}
+
+li {
+    color: maroon;
+    font-size: 14px;
+}
+
+.red-li {
+    color: red;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+}
+
+.larger-image {
+    width: 500px;
+    border: 10px solid khaki;
+    border-radius: 50%;
+}
+
+#test-div-1 {
+    width: 300px;
+    height: 300px;
+    background: coral;
+    padding: 20px;
+    margin: 20px;
+}
+
+#test-div-2 {
+    width: 300px;
+    height: 300px;
+    background: cornflowerblue;  
+    margin-top: -100px;
+    padding-right: 300px;
+}
+
+#test-div-3 {
+    width: 300px;
+    height: 300px;
+    background: crimson;    
+    padding: 10px 20px 100px 20px;
+    margin: 10px 20px 10px 200px;
+}
+
+input[type='text'] {
+    width: 300px;
+    border: 12px dotted hotpink;
+}
+
+#priority {
+    color: rebeccapurple !important;
+}
+
+.override-color {
+    color: green;
+}
+
+.bigger-override {
+    color: palevioletred;
+}
+
+.black {
+    background: white;
+}
+
+.black>li {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.highlight {
+    background: yellow;
+    font-style: italic;
+}

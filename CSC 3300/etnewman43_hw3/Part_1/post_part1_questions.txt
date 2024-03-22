@@ -1,0 +1,48 @@
+	Question 1.
+
+If integrity controls aren't in place, products that require a system generated unique ID along with the product name and price could be: null, not unique.
+Products could or could not have a description.
+Prices could be either 0 or null.
+Orders could have null order numbers, product IDs, products purchased, quantity purchased, and customer last and first name.
+Default quantities could be null or any number.
+Quantities could be greater than 10 or null.
+Product IDs in the orders table could not exist in the products table.
+
+insert into orders(first_name,last_name,order_num,quantity) values(null,'Newman',null,66);
+
+In this insert first name and order_num are null, the last name is fine, but quantity is greater than 10.
+
+insert into products(ID,prod_name,prod_desc,prod_price) values(null,'Netflix','',-100)
+
+In this insert ID is null, prod_name is fine, prod_desc is empty and the price is negative.
+
+These are all examples of bad data being let through without key constraints.
+
+
+	Question 2. 
+
+I would write a bash script to output onto the command line the requirements needed to backup my SQL database. It would output: 
+	gbak -backup -v -user <user> -password <pass> "<path_name>" <database_name>;
+Where <user>, <pass>, <path_name> and <database_name> are user input.
+
+
+	Question 3.
+
+No because upgrading Firebird could potentialy mess up your backup file and corrupt data, then we would have to go back and make sure everything is correct. It would be better to export the database somewhere then update Firebird then import the database.
+
+
+	Question 4.
+
+The attack was in phpMyAdmin 4 before 4.9.4 and 5. The SQL injection exists in the user accounts page. A malicious user could inject custom SQL in place of their own username when creating queries to this page. An attacker must have a valid MySQL account to access the server. The solution was an update to phpMyAdmin.
+
+
+	Question 5.
+
+If they have super user privileges then they could alter tables and therefore alter table constraints. This, in turn, violates integrity.
+
+
+	Question 6.
+
+There are many ways to fight an injection attack: Update and patch - Patch management solutions, Firewalls - Web application firewall to help filter malicious data, Reducing attack surfaces - Getting rid of database functionality that we don't need, among others.
+
+

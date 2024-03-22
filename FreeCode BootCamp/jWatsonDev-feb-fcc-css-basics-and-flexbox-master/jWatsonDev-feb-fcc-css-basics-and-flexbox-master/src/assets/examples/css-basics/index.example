@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Basics</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .embedded-application {
+            background: cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The main heading</h1>
+    <hr />
+
+    <h3>css basic skills...straight from freeCodeCamp</h3>
+    <ul>
+        <li style="color: purple;">Change the Color of Text</li>
+        <li class="red-li">Use CSS Selectors to Style Elements</li>
+        <li class="red-li">Use a CSS Class to Style an Element - you can style multiple items with a single class</li>
+        <li>Change the Font Size of an Element</li>
+        <li>Set the Font Family of an Element</li>
+        <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/basic-css/import-a-google-font">Import a
+                Google Font</a> and understand specify How Fonts Should Degrade</li>
+        <li>Size Your Images</li>
+        <li><a
+                href="https://www.freecodecamp.org/learn/responsive-web-design/basic-css/add-borders-around-your-elements">Add
+                Borders Around Your Elements</a></li>
+        <li>Add Rounded Corners with border-radius, which you can use to make Circular Images with a border-radius</li>
+        <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/basic-css/set-the-id-of-an-element">Set
+                the
+                id of an Element and use an id Attribute to Style an Element</a></li>
+        <li>Padding, margin</li>
+        <li>Negative margin and Different Padding and Margin to Each Side of an Element</li>
+        <li>Use Clockwise Notation to Specify the Padding and Margin of an Element</li>
+        <li>Use Attribute Selectors to Style Elements</li>
+        <li><a
+                href="https://www.freecodecamp.org/learn/responsive-web-design/basic-css/understand-absolute-versus-relative-units">Understand
+                Absolute versus Relative Units</a></li>
+        <li>Style the HTML Body Element and inherit Styles from the Body Element</li>
+        <li class="bigger-override override-color" id="priority" style="color: aqua;">Prioritize One Style Over Another
+            and Override Styles
+            in Subsequent
+            CSS - <em>order in stylesheet is what
+                matters</em></li>
+        <li>Override Class Declarations by Styling ID Attributes - order doesn't matter id's take preference (see above)
+        </li>
+        <li>Override Class Declarations with Inline Styles (use above example) - I am the most powerful</li>
+        <li>Override All Other Styles by using Important - no, I am the most powerful (do NOT use often)</li>
+    </ul>
+
+    <h3>Use <a href="https://www.freecodecamp.org/learn" target="_blank">freeCodeCamp</a> to learn the below concepts
+    </h3>
+    <ul class="black">
+        <li>Use Hex Code for Specific Colors <span class="highlight">e.g. #000000 - uses hex values (0-15 for ea value)
+                to represent and mix red, green, and blue (over 16 million colors)</span></li>
+        <li>Use Abbreviated Hex Code <span class="highlight">e.g. #fff - uses hex values (0-15 for ea value - 1 digit
+                ea)
+                to represent and mix red, green, and blue (~ 4,000)</span</li> 
+        <li>Use RGB values to Color Elements<span
+                    class="highlight">e.g. rgb(0,11,10) works just like hex except uses decimal values 0 - 255 (16x16 =
+                    256, so also allows over 16 million colors)</span></li>
+    </ul>
+
+    <h3>3 ways of applying css, well really 4 if you count import as a separate methodology</h3>
+    <ol>
+        <li style="background: red;">inline</li>
+        <li class="embedded-application">embedded</li>
+        <li class="external-application">external</li>
+        <li class="imported-application">imported</li>
+    </ol>
+
+    <img src="https://picsum.photos/200" alt="Lorem Picsum" class="larger-image" />
+
+    <div id="test-div-1"></div>
+
+    <div id="test-div-2"></div>
+
+    <div id="test-div-3"></div>
+
+    <input type="text" />
+</body>
+
+</html>

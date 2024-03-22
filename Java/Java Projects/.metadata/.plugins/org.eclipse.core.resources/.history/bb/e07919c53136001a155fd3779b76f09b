@@ -1,0 +1,17 @@
+
+public class IntroToJava {
+
+	public static void main(String[] args) {
+	
+		System.out.println("Hello World!");
+		String bye = ("Goodbye!");
+		String adj = ("Happy");
+		String verb = ("Running");
+		String noun = ("House");
+		
+		System.out.println("I am very " + adj + ". Today, I went " + verb + ". Afterwards, I went to the " + noun ".");
+		
+
+	}
+
+}

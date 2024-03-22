@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Flexbox Layout</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Greetings.</h1>
+    <p>A simple <b>CSS Flexbox</b> design.</p>
+  </header>
+
+  <nav>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+  </nav>
+  <!--
+    https://www.pluralsight.com/guides/semantic-html
+    https://guide.freecodecamp.org/html/html5-semantic-elements/
+    https://baconipsum.com/
+  -->
+  <main>
+    <section class="col-70">
+      <article class="buffer">
+        <h3>Steak is Great</h3>
+        <img src="https://picsum.photos/250/?blur" alt="Lorem Picsum" class="img-float-right thumbnail" />
+        <p>Ribeye short loin cow shank rump sausage spare ribs beef ribs chicken. Doner ball tip andouille turducken
+          porchetta t-bone swine beef ribs prosciutto chislic tail capicola pork. Ham pork belly cow, shankle
+          andouille
+          corned beef shank rump. Jerky beef ribs drumstick pork chop frankfurter brisket boudin t-bone kielbasa
+          spare
+          ribs pork ham.</p>
+        <p>Bacon ipsum dolor amet filet mignon shoulder short ribs bacon. Turkey t-bone tenderloin kielbasa, filet
+          mignon chislic shankle doner tail. Beef ribs jerky turkey kevin, chicken prosciutto strip steak filet mignon
+          sausage pork chop. Landjaeger strip steak pork chop kielbasa chicken chislic ribeye. Tri-tip frankfurter
+          pork belly, short ribs salami sirloin picanha meatloaf pork chop. Chuck jerky spare ribs turducken pork.</p>
+      </article>
+      <article class="buffer">
+        <h3>BBQ is Great</h3>
+        <img src="https://picsum.photos/250/?blur" alt="Lorem Picsum" class="img-float-left thumbnail" />
+        <p>Bacon ipsum dolor amet filet mignon shoulder short ribs bacon. Turkey t-bone tenderloin kielbasa, filet
+          mignon chislic shankle doner tail. Beef ribs jerky turkey kevin, chicken prosciutto strip steak filet mignon
+          sausage pork chop. Landjaeger strip steak pork chop kielbasa chicken chislic ribeye. Tri-tip frankfurter
+          pork belly, short ribs salami sirloin picanha meatloaf pork chop. Chuck jerky spare ribs turducken pork.</p>
+        <p>Ribeye short loin cow shank rump sausage spare ribs beef ribs chicken. Doner ball tip andouille turducken
+          porchetta t-bone swine beef ribs prosciutto chislic tail capicola pork. Ham pork belly cow, shankle andouille
+          corned beef shank rump. Jerky beef ribs drumstick pork chop frankfurter brisket boudin t-bone kielbasa spare
+          ribs pork ham.</p>
+      </article>
+    </section>
+    <aside class="col-30">
+      <section class="buffer">
+        <h3>BBQ'd Beef Brisket is Incredible</h3>
+        <img src="https://picsum.photos/550/250/?blur" alt="Lorem Picsum" class="thumbnail" />
+        <p>Bacon ipsum dolor amet salami ham ribeye picanha, jerky chicken leberkas doner sausage ball tip venison
+          flank. Shankle kielbasa frankfurter tongue pig, strip steak beef andouille kevin. Beef ground round chuck
+          landjaeger flank, bresaola doner sirloin shankle beef ribs meatball ham rump jerky. Cupim cow landjaeger
+          porchetta. Beef pancetta pork belly shankle landjaeger pastrami. Kevin flank ham shoulder</p>
+      </section>
+      <section class="buffer">
+        <h3>Bacon is Great</h3>
+        <p>Ribeye short loin cow shank rump sausage spare ribs beef ribs chicken. Doner ball tip andouille turducken
+          porchetta t-bone swine beef ribs prosciutto chislic tail capicola pork. Ham pork belly cow, shankle andouille
+          corned beef shank rump. Jerky beef ribs drumstick pork chop frankfurter brisket boudin t-bone kielbasa spare
+          ribs pork ham.</p>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <p>
+      <small>
+        <a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank">W3 Schools Flexbox</a> -
+        <em>Simplicity is the ultimate sophistication.</em> --Leonardo da
+        Vinci
+      </small>
+    </p>
+  </footer>
+
+</body>
+
+</html>

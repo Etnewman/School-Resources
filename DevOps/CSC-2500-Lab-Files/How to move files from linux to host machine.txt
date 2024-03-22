@@ -1,0 +1,1 @@
+mv 'file name' /media/sf_CSC-2500-Lab-Files

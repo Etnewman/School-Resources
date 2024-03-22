@@ -1,0 +1,12 @@
+Connected to server on ('127.0.0.1', 8001)
+Sending Hello
+Received Data: Version: 17 Type: 0 Length: 5
+Message Recieved: HELLO
+Sending Command
+Received Data: Version: 17 Type: 1 Length: 7
+Message Recieved: SUCCESS
+Sending Command
+Received Data: Version: 17 Type: 2 Length: 7
+Message Recieved: SUCCESS
+Closing Socket
+

@@ -1,0 +1,12 @@
+Script started on 2019-09-23 19:15:12+0000
+etnewman43@csc2500:~$ cat hi
+cat: hi: No such file or directory
+etnewman43@csc2500:~$ echo hi
+hi
+etnewman43@csc2500:~$ echo -> file[K[K[K[K[K[K[K> file[K[K[K[K[K[K"Hi There" > text.txt
+etnewman43@csc2500:~$ cat text.txt
+Hi There
+etnewman43@csc2500:~$ exit
+exit
+
+Script done on 2019-09-23 19:16:23+0000

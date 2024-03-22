@@ -1,0 +1,15 @@
+1. Create 2 Merkle Trees:
+	a. MerkleTree MerkleTreeList1 = new MerkleTree();
+	b. MerkleTree MerkleTreeList2 = new MerkleTree();
+
+2. Hash Function for both (For each Transation/Book):
+	a. MerkleTreeList { for (String indvTransaction : TransactionList) { HashTransactionList.add(SHA.getSHA(indvTransaction)); } }
+
+3. Get Merkle Root Method:
+	a. GetMerkleRoot(Type HashTransactionList) { ‘Code for MerkleRoot’ return GetMerkleRoot(TemporaryList) <- Recursive }
+
+4. Compare Merkle Roots:
+	a. If (MerkleTreeList1.GetMerkleRoot() == MerkleTreeList2.GetMerkleRoot())
+		i. MATCH!=> Both lists have the same exact books and are in the same order.
+	b. Else
+		i. NO MATCH! => Either one list has one(or more) different books or are in a different order.

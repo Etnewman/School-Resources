@@ -1,0 +1,12 @@
+Listening for connection on: ('localhost', 8001)
+Connected to (IP, PORT): ('127.0.0.1', 50473)8001
+Received Data: Version: 17 Type: 0 Length: 5
+Version Accepted
+Message Received: HELLO
+Sending HELLO packet
+Received Data: Version: 17 Type: 1 Length: 7
+Version Accepted
+Executing Supported Command: LIGHTON
+Received Data: Version: 17 Type: 2 Length: 8
+Version Accepted
+Executing Supported Command: LIGHTOFF

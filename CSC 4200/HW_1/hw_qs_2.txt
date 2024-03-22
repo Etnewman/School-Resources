@@ -1,0 +1,5 @@
+FROM LEFT TO RIGHT
+64 bytes from 10.128.0.3 == This is the ping response of 64 bytes that was originally sent in the command.
+icmp_seq=1 == Ping uses the ICMP (Internet Control Message Protocol), this means that ICMP is sending back in sequence so that the user knows which ping is which and gives each a number.
+ttl=64 == TTL (Time-to-live) is a value in the Internet Protocol packet that tells a network router if the packet has been in the network too long. Depending on the operating system it can start anywhere between 1-255 and decrements either until the client is reached or the counter = 0, where it would then be discarded and a message to the host would be sent back.
+time=1.24 ms == This is the round trip time for the ping command, in this case the round trip time was 1.24 milliseconds.

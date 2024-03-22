@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import './imported-css.css';
+
+/* Style the HTML Body Element */
+body {
+    /* add a background image */
+    background: url('https://picsum.photos/1600');
+    /* note how other elements inherit this font */
+    font-family: fantasy;
+}
+
+.external-application {
+    background: green;
+}
+
+/* Use CSS Selectors to Style Elements */
+/* Change the Font Size of an Element */
+li {
+    color: maroon;
+    font-size: 14px;
+}
+
+/* Use a CSS Class to Style an Element */
+.red-li {
+    color: red;
+}
+
+/* Set the Font Family of an Element */
+h3 {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+}
+
+/* Size Your Images and add borders to elements*/
+.larger-image {
+    width: 500px;
+    border: 10px solid khaki;
+    border-radius: 50%;
+}
+
+#test-div-1 {
+    width: 300px;
+    height: 300px;
+    background: coral;
+    /* Padding, margin */
+    padding: 20px;
+    margin: 20px;
+}
+
+#test-div-2 {
+    width: 300px;
+    height: 300px;
+    background: cornflowerblue;
+    /* negative margin abd Different Padding and Margin to Each Side of an Element */
+    margin-top: -100px;
+    padding-right: 300px;
+}
+
+#test-div-3 {
+    width: 300px;
+    height: 300px;
+    background: crimson;
+    /* clockwise notation */
+    padding: 10px 20px 100px 20px;
+    margin: 10px 20px 10px 200px;
+}
+
+/* use attribute selector */
+input[type='text'] {
+    width: 300px;
+    border: 12px dotted hotpink;
+}
+
+#priority {
+    color: rebeccapurple !important;
+}
+
+.override-color {
+    color: green;
+}
+
+.bigger-override {
+    color: palevioletred;
+}
+
+.black {
+    background: white;
+}
+
+.black>li {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.highlight {
+    background: yellow;
+    font-style: italic;
+}

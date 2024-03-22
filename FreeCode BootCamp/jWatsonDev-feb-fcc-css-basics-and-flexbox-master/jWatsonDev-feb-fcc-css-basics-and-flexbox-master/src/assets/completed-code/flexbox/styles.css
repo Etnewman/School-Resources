@@ -1,0 +1,119 @@
+/* 
+ - https://coolors.co/4b4237-d5a021-ede7d9-a49694-736b60 
+ - https: //blog.logrocket.com/how-to-create-better-themes-with-css-variables-5a3744105c74/
+ */
+:root {
+  --header-bg: #4B4237;
+  --nav-bg: #D5A021;
+  --light-text-bg: #EDE7D9;
+  --aside-text-bg: #A49694;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+  background: var(--header-bg);
+}
+
+/* START of NAV */
+
+nav {
+  display: flex;
+  background-color: var(--nav-bg);
+}
+
+nav a {
+  color: #fff;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* END of NAV */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-70 {
+  flex: 70%;
+  background-color: var(--light-text-bg);
+}
+
+.col-30 {
+  flex: 30%;
+  background-color: var(--aside-text-bg);
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: var(--light-text-bg);
+}
+
+/* utility text buffer/padding */
+.buffer {
+  padding: 10px;
+}
+
+/* don't allow images to exceed the width of container and center them by default */
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+/* add some space between our paragraph text for readability and add back some top/bottom margin */
+p {
+  line-height: 30px;
+  margin: 15px 0;
+}
+
+.img-float-right {
+  float: right;
+  /* clockwise notation top right bottom left */
+  margin: 15px 0 15px 15px;
+}
+
+.img-float-left {
+  float: left;
+  /* clockwise notation top right bottom left */
+  margin: 15px 15px 15px 0;
+}
+
+/* image thumbnail class */
+.thumbnail {
+  padding: 4px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, .3);
+}
+
+/* Responsive layout - when the screen is 700px wide or less */
+@media screen and (max-width: 700px) {
+
+  /* change cols to stack on top of each other */
+  main,
+  nav {
+    flex-direction: column;
+  }
+
+  /* remove floats from floated images and center */
+  .img-float-left,
+  .img-float-right {
+    float: none;
+    margin: auto;
+  }
+}
